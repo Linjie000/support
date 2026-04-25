@@ -1,0 +1,42 @@
+<!-- index.html（营销页） -->
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>今天辞职了吗 | 打工人的每日精神体检</title>
+  <meta name="description" content="每天3秒，看看今天适不适合辞职。轻量解压、即时播报、围观共鸣、一键分享。" />
+  <style>
+    :root { --bg:#120f33; --bg2:#3a267e; --card:#ffffff; --text:#151515; --muted:#666; --acc:#ff6b6b; }
+    *{box-sizing:border-box} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Segoe UI",sans-serif;
+    background:linear-gradient(160deg,var(--bg),var(--bg2));color:#fff}
+    .wrap{max-width:980px;margin:0 auto;padding:48px 20px}
+    .hero h1{font-size:44px;line-height:1.1;margin:0 0 12px}
+    .hero p{font-size:18px;opacity:.9;margin:0 0 24px}
+    .btn{display:inline-block;padding:12px 18px;border-radius:12px;background:#fff;color:#111;text-decoration:none;font-weight:700}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:30px}
+    .card{background:var(--card);color:var(--text);border-radius:16px;padding:16px}
+    .card h3{margin:0 0 8px;font-size:18px}
+    .card p{margin:0;color:var(--muted);font-size:14px;line-height:1.6}
+    .foot{margin-top:36px;font-size:13px;opacity:.85}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1>今天辞职了吗</h1>
+      <p>每天3秒，看看今天适不适合辞职。先稳住情绪，再决定人生。</p>
+      <a class="btn" href="support.html">技术支持 / 联系我们</a>
+    </section>
+
+    <section class="grid">
+      <article class="card"><h3>今日辞职指数</h3><p>快速测算当日状态，给出简短可执行建议。</p></article>
+      <article class="card"><h3>即时播报</h3><p>今日播报 / 高位时段 / 节后模式 / 明日风向。</p></article>
+      <article class="card"><h3>围观模式</h3><p>全国平均指数 + 职业/城市围观榜，情绪有共鸣。</p></article>
+      <article class="card"><h3>一键分享</h3><p>截图发群，和同事朋友一起解压。</p></article>
+    </section>
+
+    <p class="foot">© 2026 Lin Jie. All rights reserved.</p>
+  </main>
+</body>
+</html>
