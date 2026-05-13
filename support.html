@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>恋爱大师技术支持</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #2f2a41;
+      --muted: #746d82;
+      --brand: #ee7180;
+      --paper: #fff8f6;
+      --line: #f1dde0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: linear-gradient(180deg, #fffaf8 0%, #f8f2f6 100%);
+      line-height: 1.75;
+    }
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0 72px;
+    }
+    header, .card {
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: rgba(255, 255, 255, 0.84);
+      box-shadow: 0 18px 48px rgba(87, 63, 78, 0.08);
+    }
+    header {
+      padding: 28px;
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(30px, 5vw, 46px);
+      line-height: 1.12;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 22px;
+    }
+    p, li {
+      color: var(--muted);
+      font-size: 16px;
+    }
+    a {
+      color: var(--brand);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+      margin-top: 18px;
+    }
+    .card {
+      padding: 22px;
+    }
+    ul {
+      margin: 8px 0 0;
+      padding-left: 22px;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 18px;
+      border-radius: 999px;
+      background: var(--brand);
+      color: white;
+      font-weight: 800;
+    }
+    .meta {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>恋爱大师技术支持</h1>
+      <p class="meta">我们会尽量协助你处理 App 使用、账号数据、AI 回复、分享卡和军师预约相关问题。</p>
+      <a class="button" href="mailto:jie.lin.growatt@gmail.com">联系技术支持</a>
+    </header>
+
+    <div class="grid">
+      <section class="card">
+        <h2>常见问题</h2>
+        <ul>
+          <li>AI 回复或评分加载较慢：请检查网络状态后重试。</li>
+          <li>每日次数没有恢复：请确认设备日期和时间设置是否正常。</li>
+          <li>分享卡无法保存：请检查系统相册权限是否开启。</li>
+          <li>军师预约没有反馈：请确认联系方式填写正确，并留意邮箱或其他联系方式。</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>反馈时请提供</h2>
+        <ul>
+          <li>你的设备型号和 iOS 版本。</li>
+          <li>App 版本号。</li>
+          <li>问题出现的页面和操作步骤。</li>
+          <li>如方便，请附上截图或录屏。</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>联系邮箱</h2>
+        <p>技术支持、隐私问题、数据删除请求和军师预约问题都可以发送至：</p>
+        <p><a href="mailto:jie.lin.growatt@gmail.com">jie.lin.growatt@gmail.com</a></p>
+      </section>
+
+      <section class="card">
+        <h2>服务说明</h2>
+        <p>恋爱大师中的 AI 生成内容仅作为日常沟通参考。真人军师服务需要根据人工排班和实际情况处理，提交预约不代表即时响应或一定成交。</p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
