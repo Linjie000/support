@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marxon Solar Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for the Marxon Solar app published by Guangdong Marxon Electronics Co., LTD.">
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #f2f7f4;
+      --surface: rgba(255, 255, 255, 0.94);
+      --text: #15221b;
+      --muted: #58675f;
+      --brand: #116c47;
+      --brand-dark: #093d2b;
+      --line: #dbe6df;
+      --shadow: 0 18px 50px rgba(12, 55, 34, 0.09);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(17, 108, 71, 0.14), transparent 28rem),
+        linear-gradient(180deg, #f7faf8 0%, var(--background) 100%);
+      font: 16px/1.72 -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "PingFang SC", "Noto Sans SC", Arial, sans-serif;
+    }
+
+    a { color: var(--brand); }
+
+    .page {
+      width: min(980px, calc(100% - 28px));
+      margin: 30px auto 64px;
+    }
+
+    .hero,
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+    }
+
+    .hero {
+      padding: 34px;
+      color: #f5fff9;
+      background: linear-gradient(135deg, var(--brand), var(--brand-dark));
+    }
+
+    .hero h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2.1rem, 6vw, 3.8rem);
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+    }
+
+    .hero p {
+      max-width: 760px;
+      margin: 0;
+      color: rgba(245, 255, 249, 0.88);
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .pill {
+      padding: 7px 12px;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.11);
+      font-size: 0.92rem;
+    }
+
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 18px 0;
+      padding: 15px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: var(--surface);
+    }
+
+    .nav a {
+      padding: 8px 12px;
+      border-radius: 999px;
+      color: var(--text);
+      text-decoration: none;
+      background: #fff;
+      border: 1px solid var(--line);
+    }
+
+    .nav a:hover {
+      color: #fff;
+      background: var(--brand);
+      border-color: var(--brand);
+    }
+
+    .card {
+      margin-top: 18px;
+      padding: 28px;
+      background: var(--surface);
+    }
+
+    .card h2 {
+      margin: 0 0 12px;
+      color: var(--brand);
+      line-height: 1.25;
+    }
+
+    .card p { margin: 10px 0; }
+
+    .card li + li { margin-top: 8px; }
+
+    .chinese { border-left: 5px solid #299665; }
+
+    .footer {
+      margin-top: 22px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    @media (max-width: 640px) {
+      .page { margin-top: 14px; }
+      .hero, .card { padding: 21px; border-radius: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <h1>Marxon Solar Privacy Policy</h1>
+      <p>
+        This Privacy Policy applies to the <strong>Marxon Solar</strong> mobile
+        application, package name <strong>com.marxon.marxonSolar</strong>,
+        published by <strong>Guangdong Marxon Electronics Co., LTD</strong>.
+      </p>
+      <div class="meta">
+        <span class="pill">Effective: November 20, 2026</span>
+        <span class="pill">English &amp; 中文</span>
+      </div>
+    </header>
+
+    <nav class="nav" aria-label="Privacy policy sections">
+      <a href="#purpose">Purpose</a>
+      <a href="#collection">Data Collection</a>
+      <a href="#use">Data Use</a>
+      <a href="#sharing">Sharing</a>
+      <a href="#rights">Your Rights</a>
+      <a href="#contact">Contact</a>
+      <a href="#zh">中文</a>
+    </nav>
+
+    <section class="card" id="purpose">
+      <h2>1. App purpose</h2>
+      <p>
+        Marxon Solar allows authorized users to create or access an account,
+        monitor compatible solar and energy-storage equipment, view stations,
+        collectors, devices, energy statistics and alarms, bind equipment by
+        scanning a code, configure supported devices, and manage subordinate
+        users where the account has permission.
+      </p>
+    </section>
+
+    <section class="card" id="collection">
+      <h2>2. Information we collect and process</h2>
+      <ul>
+        <li>
+          <strong>Account and contact data:</strong> account name, email address
+          or mobile phone number, country calling code, verification code, and
+          authentication credentials required for registration, login, password
+          reset, and account support.
+        </li>
+        <li>
+          <strong>Precise location and station information:</strong> latitude,
+          longitude, country, province, city, area, and an optional address when
+          you choose to locate or create a station. Location permission is
+          requested only when you use a location-related feature.
+        </li>
+        <li>
+          <strong>Camera and scan data:</strong> camera access and QR or barcode
+          content you choose to scan, used to identify, look up, and bind a
+          compatible collector or device.
+        </li>
+        <li>
+          <strong>Equipment and energy data:</strong> device identifiers and
+          serial numbers, station and device names, installed capacity,
+          operating status, power and energy measurements, alarms,
+          configuration values, and commands you request.
+        </li>
+        <li>
+          <strong>User-management data:</strong> names, accounts, email
+          addresses, mobile numbers, locations, and user roles entered or viewed
+          by authorized manufacturer or administrator accounts.
+        </li>
+        <li>
+          <strong>Technical and security data:</strong> app version, device and
+          operating-system information, IP-derived region information, access
+          and refresh tokens, request metadata, and limited server logs needed
+          for security, diagnostics, and service operation.
+        </li>
+      </ul>
+      <p>
+        Authentication tokens are stored in protected device storage. Marxon
+        Solar does not include third-party advertising or advertising SDKs and
+        does not sell personal data.
+      </p>
+    </section>
+
+    <section class="card" id="use">
+      <h2>3. How we use information</h2>
+      <ul>
+        <li>Provide registration, login, account recovery, and authorized user management.</li>
+        <li>Connect accounts with stations, collectors, and devices and display requested operational data.</li>
+        <li>Locate stations, bind equipment, process alarms, and perform user-requested settings or control operations.</li>
+        <li>Maintain service reliability, prevent misuse, troubleshoot faults, secure accounts, and comply with applicable law.</li>
+        <li>Respond to support, privacy, safety, and legal requests.</li>
+      </ul>
+    </section>
+
+    <section class="card" id="sharing">
+      <h2>4. Sharing and international processing</h2>
+      <p>
+        We do not sell personal data. Information may be processed by our
+        backend infrastructure and service providers only as needed to operate,
+        secure, and support Marxon Solar. We may disclose information when
+        required by law or when reasonably necessary to protect users, rights,
+        property, or service security.
+      </p>
+      <p>
+        Depending on where you use the app, information may be processed in a
+        country or region other than your own, subject to applicable safeguards.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>5. Retention and security</h2>
+      <p>
+        We retain information only for as long as reasonably necessary to
+        provide the service, meet legal obligations, resolve disputes, and
+        protect the service. We use reasonable administrative and technical
+        safeguards, including encrypted network transport and protected local
+        token storage. No electronic system can be guaranteed completely secure.
+      </p>
+    </section>
+
+    <section class="card" id="rights">
+      <h2>6. Your choices and rights</h2>
+      <ul>
+        <li>
+          You may deny or revoke camera and location permissions in system
+          settings. Core monitoring may remain available, but scanning or
+          automatic location features may not work.
+        </li>
+        <li>You may correct profile or station information where the app provides that function.</li>
+        <li>You may sign out and clear locally stored session data.</li>
+        <li>
+          To request access, correction, deletion, restriction, or other rights
+          available under applicable law, contact us using the details below.
+          We may need to verify account ownership before acting.
+        </li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>7. Children's privacy</h2>
+      <p>
+        Marxon Solar is intended for equipment owners, installers,
+        distributors, and other authorized users, not for children. We do not
+        knowingly collect children's personal data in violation of applicable
+        law.
+      </p>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>8. Contact and policy changes</h2>
+      <p>
+        <strong>Guangdong Marxon Electronics Co., LTD</strong><br>
+        Website: <a href="https://www.marxon.com/">https://www.marxon.com/</a><br>
+        Email: <a href="mailto:export@marxon.net">export@marxon.net</a><br>
+        Phone: <a href="tel:+867583982115">+86-758-3982 115</a>
+      </p>
+      <p>
+        We may update this policy to reflect changes to the app, law, or our
+        practices. The current version will remain available at this URL with an
+        updated effective date.
+      </p>
+    </section>
+
+    <section class="card chinese" id="zh" lang="zh-CN">
+      <h2>Marxon Solar 隐私政策（中文）</h2>
+      <p>
+        本政策适用于广东马克森电子有限公司发布的 Marxon Solar 应用
+        （包名：<strong>com.marxon.marxonSolar</strong>），生效日期为
+        2026 年 11 月 20 日。
+      </p>
+      <p>
+        为提供账号注册与登录、光伏及储能设备监控、设备扫码绑定、电站定位、
+        能量与告警展示、设备设置及授权用户管理等功能，应用可能处理以下信息：
+      </p>
+      <ul>
+        <li>账号、邮箱或手机号、验证码及认证信息；</li>
+        <li>你主动使用定位功能时的精确经纬度、地区及可选地址；</li>
+        <li>你主动扫码时的相机权限和二维码或条码内容；</li>
+        <li>电站、采集器和设备标识、序列号、运行状态、功率、能量、告警及配置数据；</li>
+        <li>授权管理账号录入或查看的姓名、账号、邮箱、手机号、地区和用户角色；</li>
+        <li>为安全、诊断和服务运行所需的应用版本、设备系统信息、IP 推断地区、登录令牌、请求信息及有限日志。</li>
+      </ul>
+      <p>
+        应用不包含第三方广告或广告 SDK，不出售个人信息。相关信息仅在提供、保护
+        和支持 Marxon Solar 服务所需范围内由我们的后台基础设施和服务提供方处理，
+        或在法律要求及保护用户和服务安全所必要时披露。
+      </p>
+      <p>
+        你可以在系统设置中关闭相机或定位权限，也可以联系我们，申请访问、更正、
+        删除、限制处理或行使适用法律赋予你的其他个人信息权利。处理请求前，我们
+        可能需要验证账号所有权。
+      </p>
+      <p>
+        <strong>联系方式：</strong><br>
+        官网：<a href="https://www.marxon.com/">https://www.marxon.com/</a><br>
+        邮箱：<a href="mailto:export@marxon.net">export@marxon.net</a><br>
+        电话：<a href="tel:+867583982115">+86-758-3982 115</a>
+      </p>
+    </section>
+
+    <p class="footer">
+      © 2026 Guangdong Marxon Electronics Co., LTD. All rights reserved.
+    </p>
+  </main>
+</body>
+</html>
+        
